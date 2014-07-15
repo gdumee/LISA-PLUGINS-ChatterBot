@@ -12,8 +12,121 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../modules/chat.py
-msgid "time"
-msgstr "Il est %H heures et %M minutes"
+msgid "time_0"
+msgstr  "(10, \"Il est {h} heures\"),"
+
+msgid "time_5"
+msgstr  "(10, \"Il est {h} heures {m}\"),"
+        "(2, \"Il est {h} heures et {m} minutes\"),"
+
+msgid "time_10"
+msgstr  "(10, \"Il est {h} heures {m}\"),"
+        "(2, \"Il est {h} heures et {m} minutes\"),"
+        
+msgid "time_15"
+msgstr  "(10, \"Il est {h} heures et quart\"),"
+        "(5, \"Il est {h} heures {m}\"),"
+        "(2, \"Il est {h} heures et {m} minutes\"),"
+
+msgid "time_20"
+msgstr  "(10, \"Il est {h} heures {m}\"),"
+        "(2, \"Il est {h} heures et {m} minutes\"),"
+
+msgid "time_25"
+msgstr  "(10, \"Il est {h} heures {m}\"),"
+        "(2, \"Il est {h} heures et {m} minutes\"),"
+
+msgid "time_30"
+msgstr  "(10, \"Il est {h} heures et demi\"),"
+        "(5, \"Il est {h} heures {m}\"),"
+        "(2, \"Il est {h} heures et {m} minutes\"),"
+
+msgid "time_35"
+msgstr  "(10, \"Il est {h1} heures moins {m1}\"),"
+        "(10, \"Il est {h} heures {m}\"),"
+        "(2, \"Il est {h} heures et {m} minutes\"),"
+
+msgid "time_40"
+msgstr  "(10, \"Il est {h1} heures moins {m1}\"),"
+        "(10, \"Il est {h} heures {m}\"),"
+        "(2, \"Il est {h} heures et {m} minutes\"),"
+        
+msgid "time_45"
+msgstr  "(10, \"Il est {h1} heures moins le quart\"),"
+        "(5, \"Il est {h} heures {m}\"),"
+        "(2, \"Il est {h} heures et {m} minutes\"),"
+
+msgid "time_50"
+msgstr  "(10, \"Il est {h1} heures moins {m1}\"),"
+        "(10, \"Il est {h} heures {m}\"),"
+        "(2, \"Il est {h} heures et {m} minutes\"),"
+
+msgid "time_55"
+msgstr  "(10, \"Il est {h1} heures moins {m1}\"),"
+        "(10, \"Il est {h} heures {m}\"),"
+        "(2, \"Il est {h} heures et {m} minutes\"),"
+
+msgid "day_0"
+msgstr  "Lundi"
+
+msgid "day_1"
+msgstr  "Mardi"
+
+msgid "day_2"
+msgstr  "Mercredi"
+
+msgid "day_3"
+msgstr  "Jeudi"
+
+msgid "day_4"
+msgstr  "Vendredi"
+
+msgid "day_5"
+msgstr  "Samedi"
+
+msgid "day_6"
+msgstr  "Dimanche"
+
+msgid "month_1"
+msgstr  "janvier"
+
+msgid "month_2"
+msgstr  "Février"
+
+msgid "month_3"
+msgstr  "Mars"
+
+msgid "month_4"
+msgstr  "Avril"
+
+msgid "month_5"
+msgstr  "Mai"
+
+msgid "month_6"
+msgstr  "Juin"
+
+msgid "month_7"
+msgstr  "Juillet"
+
+msgid "month_8"
+msgstr  "Août"
+
+msgid "month_9"
+msgstr  "Septembre"
+
+msgid "month_10"
+msgstr  "Octobre"
+
+msgid "month_11"
+msgstr  "Novembre"
+
+msgid "month_12"
+msgstr  "Décembre"
+
+msgid "date"
+msgstr  "(10, \"Nous sommes {wd} {d} {m}\"),"
+        "(10, \"Nous sommes {wd} {d}\"),"
+        "(10, \"Nous sommes le {d} {m}\"),"
 
 msgid "Hello. How are you ?"
 msgstr "Bonjour. Comment allez vous ?"

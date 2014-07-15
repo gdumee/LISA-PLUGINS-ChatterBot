@@ -28,6 +28,9 @@
             "chatterbot_time": {
                 "method": "getTime"
             },
+            "chatterbot_date" : {
+                "method": "getDate"
+            },
             "chatterbot_hello": {
                 "method": "sayHello"
             }
