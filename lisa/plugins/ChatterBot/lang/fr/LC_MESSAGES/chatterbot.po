@@ -22,7 +22,7 @@ msgstr  "(10, \"Il est {h} heures {m}\"),"
 msgid "time_10"
 msgstr  "(10, \"Il est {h} heures {m}\"),"
         "(2, \"Il est {h} heures et {m} minutes\"),"
-        
+
 msgid "time_15"
 msgstr  "(10, \"Il est {h} heures et quart\"),"
         "(5, \"Il est {h} heures {m}\"),"
@@ -50,7 +50,7 @@ msgid "time_40"
 msgstr  "(10, \"Il est {h1} heures moins {m1}\"),"
         "(10, \"Il est {h} heures {m}\"),"
         "(2, \"Il est {h} heures et {m} minutes\"),"
-        
+
 msgid "time_45"
 msgstr  "(10, \"Il est {h1} heures moins le quart\"),"
         "(5, \"Il est {h} heures {m}\"),"
@@ -130,3 +130,12 @@ msgstr  "(10, \"Nous sommes {wd} {d} {m}\"),"
 
 msgid "Hello. How are you ?"
 msgstr "Bonjour. Comment allez vous ?"
+
+msgid "month_{0}"
+msgstr  "template"
+
+msgid "time_{0}"
+msgstr  "template"
+
+msgid "day_{0}"
+msgstr  "template"
