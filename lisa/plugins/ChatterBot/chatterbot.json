@@ -1,31 +1,28 @@
 {
-    "lang": ["fr"],
     "name": "ChatterBot",
+    "version": "0.2",
+    "git-url": "git@git.neotique.fr:demonstrateur/plugin-meteo",
     "author": "Gilles Dumée",
-    "enabled": 1,
-    "git-url": "git@git.neotique.fr:demonstrateur/plugin-chatterbot",
-    "version": "0.2.0",
-    "description": [
-        {
-            "lang": "fr",
-            "description": "Ce plugin est celui par défaut intégrant les interactions basiques avec LISA",
-            "wit-instance": "https://wit.ai/Seraf/lisa_fr"
-        }
-    ],
-    "configuration": {
-        "intents": {
-            "chatterbot_time": {
-                "method": "getTime"
-            },
-            "chatterbot_date" : {
-                "method": "getDate"
-            },
-            "chatterbot_hello": {
-                "method": "sayHello"
-            }
+    "i_can": "i_can_plugin",
+    "intents": {
+        "chatterbot_time": {
+            "method": "getTime"
         },
-        "widgets": {
-            "getTime": "lisa.plugins.ChatterBot.web.views.widget1"
+        "chatterbot_date" : {
+            "method": "getDate",
+            "i_can": "i_can_getTimeDate"
+        },
+        "chatterbot_hello": {
+            "method": "sayHello",
+            "i_can": "i_can_sayHello"
+        }
+    },
+    "crons": {
+    },
+    "context": {
+        "global": {
+        },
+        "client": {
         }
     }
 }
