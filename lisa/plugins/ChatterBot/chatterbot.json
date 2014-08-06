@@ -1,42 +1,28 @@
 {
-    "lang": ["fr", "en", "ru"],
     "name": "ChatterBot",
-    "author": "Julien Syx",
-    "enabled": 1,
-    "pypi-url": "https://pypi.python.org/pypi/lisa-plugin-ChatterBot",
-    "github-url": "https://raw.githubusercontent.com/Seraf/LISA-PLUGINS-ChatterBot/master/lisa/plugins/ChatterBot/chatterbot.json",
-    "version": "0.1.7",
-    "description": [
-        {
-            "lang": "fr",
-            "description": "Ce plugin est celui par défaut intégrant les interactions basiques avec LISA",
-            "wit-instance": "https://wit.ai/Seraf/lisa_fr"
+    "version": "0.2",
+    "git-url": "git@git.neotique.fr:demonstrateur/plugin-meteo",
+    "author": "Gilles Dumée",
+    "i_can": "i_can_plugin",
+    "intents": {
+        "chatterbot_time": {
+            "method": "getTime"
         },
-        {
-            "lang": "en",
-            "description": "This plugin is shipped by default, managing all basic interactions with LISA",
-            "wit-instance": "https://wit.ai/Seraf/lisa_en"
+        "chatterbot_date" : {
+            "method": "getDate",
+            "i_can": "i_can_getTimeDate"
         },
-        {
-            "lang": "ru",
-            "description": "Этот плагин поставляется по умолчанию, управляющий все основные взаимодействия с LISA",
-            "wit-instance": "https://wit.ai/Seraf/lisa_ru"
+        "chatterbot_hello": {
+            "method": "sayHello",
+            "i_can": "i_can_sayHello"
         }
-    ],
-    "configuration": {
-        "intents": {
-            "chatterbot_time": {
-                "method": "getTime"
-            },
-            "chatterbot_date" : {
-                "method": "getDate"
-            },
-            "chatterbot_hello": {
-                "method": "sayHello"
-            }
+    },
+    "crons": {
+    },
+    "context": {
+        "global": {
         },
-        "widgets": {
-            "getTime": "lisa.plugins.ChatterBot.web.views.widget1"
+        "client": {
         }
     }
 }

@@ -1,17 +1,36 @@
+#-----------------------------------------------------------------------------
+# copyright   : Neotique
+#-----------------------------------------------------------------------------
 msgid ""
-msgstr ""
-"Project-Id-Version: 0.1\n"
-"Report-Msgid-Bugs-To: Julien Syx\n"
-"POT-Creation-Date: 2013-07-05 07:49+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Julien SYX <julien.syx@lisa-project.net>\n"
-"Language-Team: FR <julien.syx@lisa-project.net>\n"
-"Language: fr\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+msgstr  "Last-Translator: Gilles Dumée <gilles.dumee@neotique.fr>\n"
+        "Language-Team: Neotique>\n"
+        "Language: fr\n"
+        "MIME-Version: 1.0\n"
+        "Content-Type: text/plain; charset=UTF-8\n"
+        "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../modules/chat.py
+#-----------------------------------------------------------------------------
+# Plugin description
+#-----------------------------------------------------------------------------
+msgid "i_can_plugin"
+msgstr  "(10, \"Nous pouvons nous saluer et je peux donner l'heure\"),"
+
+msgid "i_can_sayHello"
+msgstr  "(10, \"Nous pouvons nous saluer\"),"
+        "(10, \"Nous pouvons nous dire bonjour\"),"
+        "(10, \"Nous pouvons nous demander comment nous allons\"),"
+
+msgid "i_can_getTimeDate"
+msgstr  "(10, \"Je peux vous donner l'heure et la date\"),"
+        "(10, \"Vous pouvez me demander la date et l'heure\"),"
+
+
+#-----------------------------------------------------------------------------
+# Time strings
+#-----------------------------------------------------------------------------
+msgid "time_{0}"
+msgstr  "template"
+
 msgid "time_0"
 msgstr  "(10, \"Il est {h} heures\"),"
 
@@ -65,6 +84,16 @@ msgid "time_55"
 msgstr  "(10, \"Il est {h1} heures moins {m1}\"),"
         "(10, \"Il est {h} heures {m}\"),"
         "(2, \"Il est {h} heures et {m} minutes\"),"
+
+
+#-----------------------------------------------------------------------------
+# Date strings
+#-----------------------------------------------------------------------------
+msgid "month_{0}"
+msgstr  "template"
+
+msgid "day_{0}"
+msgstr  "template"
 
 msgid "day_0"
 msgstr  "Lundi"
@@ -128,14 +157,11 @@ msgstr  "(10, \"Nous sommes {wd} {d} {m}\"),"
         "(10, \"Nous sommes {wd} {d}\"),"
         "(10, \"Nous sommes le {d} {m}\"),"
 
+
+#-----------------------------------------------------------------------------
+# Hello strings
+#-----------------------------------------------------------------------------
 msgid "Hello. How are you ?"
 msgstr "Bonjour. Comment allez vous ?"
 
-msgid "month_{0}"
-msgstr  "template"
-
-msgid "time_{0}"
-msgstr  "template"
-
-msgid "day_{0}"
-msgstr  "template"
+# --------------------- End of chatterbot.po  ---------------------
