@@ -12,6 +12,16 @@
             "method": "getDate",
             "i_can": "i_can_getTimeDate"
         },
+        "chatterbot_insult" : {
+            "method": "insult"
+        },
+        "chatterbot_get_name" : {
+            "method": "get_name",
+            "i_can": "i_can_getNames"
+        },
+        "chatterbot_get_user_name" : {
+            "method": "get_user_name"
+        },
         "chatterbot_hello": {
             "method": "sayHello",
             "i_can": "i_can_sayHello"

@@ -24,66 +24,83 @@ msgid "i_can_getTimeDate"
 msgstr  "(10, \"Je peux vous donner l'heure et la date\"),"
         "(10, \"Vous pouvez me demander la date et l'heure\"),"
 
+msgid "i_can_getNames"
+msgstr  "(10, \"Je peux vous donner nos noms\"),"
+        "(10, \"Vous pouvez me demander nos noms\"),"
+
 
 #-----------------------------------------------------------------------------
 # Time strings
 #-----------------------------------------------------------------------------
+#: ../../modules/chat.py
+msgid "hours_{0}"
+msgstr  "template"
+
+msgid "hours_0"
+msgstr  "(10, \"minuit\"),"
+
+msgid "hours_12"
+msgstr  "(10, \"midi\"),"
+
+msgid "hours"
+msgstr  "(10, \"{h} heures\"),"
+
 msgid "time_{0}"
 msgstr  "template"
 
 msgid "time_0"
-msgstr  "(10, \"Il est {h} heures\"),"
+msgstr  "(10, \"Il est {h_str}\"),"
 
 msgid "time_5"
-msgstr  "(10, \"Il est {h} heures {m}\"),"
-        "(2, \"Il est {h} heures et {m} minutes\"),"
+msgstr  "(10, \"Il est {h_str} {m}\"),"
+        "(2, \"Il est {h_str} et {m} minutes\"),"
 
 msgid "time_10"
-msgstr  "(10, \"Il est {h} heures {m}\"),"
-        "(2, \"Il est {h} heures et {m} minutes\"),"
+msgstr  "(10, \"Il est {h_str} {m}\"),"
+        "(2, \"Il est {h_str} et {m} minutes\"),"
 
 msgid "time_15"
-msgstr  "(10, \"Il est {h} heures et quart\"),"
-        "(5, \"Il est {h} heures {m}\"),"
-        "(2, \"Il est {h} heures et {m} minutes\"),"
+msgstr  "(10, \"Il est {h_str} et quart\"),"
+        "(5, \"Il est {h_str} {m}\"),"
+        "(2, \"Il est {h_str} et {m} minutes\"),"
 
 msgid "time_20"
-msgstr  "(10, \"Il est {h} heures {m}\"),"
-        "(2, \"Il est {h} heures et {m} minutes\"),"
+msgstr  "(10, \"Il est {h_str} {m}\"),"
+        "(2, \"Il est {h_str} et {m} minutes\"),"
 
 msgid "time_25"
-msgstr  "(10, \"Il est {h} heures {m}\"),"
-        "(2, \"Il est {h} heures et {m} minutes\"),"
+msgstr  "(10, \"Il est {h_str} {m}\"),"
+        "(2, \"Il est {h_str} et {m} minutes\"),"
 
 msgid "time_30"
-msgstr  "(10, \"Il est {h} heures et demi\"),"
-        "(5, \"Il est {h} heures {m}\"),"
-        "(2, \"Il est {h} heures et {m} minutes\"),"
+msgstr  "(10, \"Il est {h_str} et demi\"),"
+        "(5, \"Il est {h_str} {m}\"),"
+        "(2, \"Il est {h_str} et {m} minutes\"),"
 
 msgid "time_35"
-msgstr  "(10, \"Il est {h1} heures moins {m1}\"),"
-        "(10, \"Il est {h} heures {m}\"),"
-        "(2, \"Il est {h} heures et {m} minutes\"),"
+msgstr  "(10, \"Il est {h1_str} moins {m1}\"),"
+        "(10, \"Il est {h_str} {m}\"),"
+        "(2, \"Il est {h_str} et {m} minutes\"),"
 
 msgid "time_40"
-msgstr  "(10, \"Il est {h1} heures moins {m1}\"),"
-        "(10, \"Il est {h} heures {m}\"),"
-        "(2, \"Il est {h} heures et {m} minutes\"),"
+msgstr  "(10, \"Il est {h1_str} moins {m1}\"),"
+        "(10, \"Il est {h_str} {m}\"),"
+        "(2, \"Il est {h_str} et {m} minutes\"),"
 
 msgid "time_45"
-msgstr  "(10, \"Il est {h1} heures moins le quart\"),"
-        "(5, \"Il est {h} heures {m}\"),"
-        "(2, \"Il est {h} heures et {m} minutes\"),"
+msgstr  "(10, \"Il est {h1_str} moins le quart\"),"
+        "(5, \"Il est {h_str} {m}\"),"
+        "(2, \"Il est {h_str} et {m} minutes\"),"
 
 msgid "time_50"
-msgstr  "(10, \"Il est {h1} heures moins {m1}\"),"
-        "(10, \"Il est {h} heures {m}\"),"
-        "(2, \"Il est {h} heures et {m} minutes\"),"
+msgstr  "(10, \"Il est {h1_str} moins {m1}\"),"
+        "(10, \"Il est {h_str} {m}\"),"
+        "(2, \"Il est {h_str} et {m} minutes\"),"
 
 msgid "time_55"
-msgstr  "(10, \"Il est {h1} heures moins {m1}\"),"
-        "(10, \"Il est {h} heures {m}\"),"
-        "(2, \"Il est {h} heures et {m} minutes\"),"
+msgstr  "(10, \"Il est {h1_str} moins {m1}\"),"
+        "(10, \"Il est {h_str} {m}\"),"
+        "(2, \"Il est {h_str} et {m} minutes\"),"
 
 
 #-----------------------------------------------------------------------------
