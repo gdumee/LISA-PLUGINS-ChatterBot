@@ -50,21 +50,38 @@ class ChatterBot(IPlugin):
         m = int((((now.minute + now.second / 60.0 + 2.5) // 5) * 5) % 60)
         if m == 0 and now.minute > 50:
             h += 1
+            if h == 24:
+                h = 0
+
+        h = 23
+        m = 45
 
         # Inverted time (ex: a quarter to five")
-        h1 = h + 1
-        m1 = 60 - m
+        h12 = h
+        if h12 > 12:
+            h12 -= 12
+
+        # Inverted time (ex: a quarter to five")
+        h12n = h + 1
+        if h12n == 24:
+            h12n = 0
+        m12n = 60 - m
+        if h12n > 12:
+            h12n -= 12
 
         # Convert hour to string
-        h_str = self._("hours_{0}".format(h)).format(h = h)
-        if h_str == "hours_{0}".format(h):
-            h_str = self._("hours").format(h = h)
-        h1_str = self._("hours_{0}".format(h1)).format(h = h1)
-        if h1_str == "hours_{0}".format(h1):
-            h1_str = self._("hours").format(h = h1)
+        h24_str = self._("hours_{0}".format(h)).format(h = h)
+        if h24_str == "hours_{0}".format(h):
+            h24_str = self._("hours").format(h = h)
+        h12_str = self._("hours_{0}".format(h12)).format(h = h12)
+        if h12_str == "hours_{0}".format(h12):
+            h12_str = self._("hours").format(h = h12)
+        h12n_str = self._("hours_{0}".format(h12n)).format(h = h12n)
+        if h12n_str == "hours_{0}".format(h12n):
+            h12n_str = self._("hours").format(h = h12n)
 
         # Set message
-        message = self._("time_{0}".format(m)).format(h_str = h_str, m = m, h1_str = h1_str, m1 = m1)
+        message = self._("time_{0}".format(m)).format(h24_str = h24_str, m = m, h12_str = h12_str, h12n_str = h12n_str, m12n = m12n)
 
         # Return message to client
         self.speakToClient(text = message, context = context)
